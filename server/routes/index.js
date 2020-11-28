@@ -9,7 +9,7 @@ router.get('/grain', function(req, res) {
   res.render('grain')
 });
 router.get('/raindrop', function(req, res) {
-  res.render('grain')
+  res.render('raindrop')
 });
 
 module.exports = router;
