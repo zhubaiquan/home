@@ -7,7 +7,5 @@ router.get('/', function(req, res) {
   res.render('index')
 });
 
-//
-router.post('/add', IndexControllers.add);
 
 module.exports = router;
